@@ -1,0 +1,9 @@
+class CheckUcaseLcaseDigitOrSchar
+{
+
+public static void main(String [] args)
+{
+   char ch = '7';
+}
+
+}

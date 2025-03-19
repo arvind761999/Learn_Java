@@ -1,0 +1,16 @@
+class CheckAlphabetDigitOrSymbol
+{
+
+public static void main(String [] args)
+{
+    char ch  = '&';
+    String Op = (ch >= 65 && ch <= 90 || ch >= 97 && ch <= 122)
+    ?(ch + " is a Alphabet")
+    :((ch >= 48 && ch <= 57)
+    ?(ch + " is a digit")
+    :(ch + " is a Symbol"));
+	System.out.println(Op);
+
+}
+
+}

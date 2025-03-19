@@ -1,0 +1,19 @@
+class CheckUcaseLcaseDigitOrSchar
+{
+
+public static void main(String [] args)
+{
+   char ch = 'j';
+   String Op = (ch >= 65 && ch <= 90)
+   ?(ch + " is a Upper Case")
+   :((ch >= 97 && ch <= 122)
+   ?(ch + " is a Lower Case")
+   :((ch >= 48 && ch <= 57)
+   ?(ch + " is a Digit")
+   :(ch + " is a Specail Symbol")
+   ));
+   
+   System.out.println(Op);
+}
+
+}
