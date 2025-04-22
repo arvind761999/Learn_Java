@@ -11,12 +11,12 @@ class ReturnType1
       // System.out.println(m5());	
 	  // m6();
 	  // m7();
-	  // System.out.println(m8());	
+	  System.out.println(m8());	
 	  // System.out.println(m9());
 	  // System.out.println(m10());
 	  // System.out.println(m11());
 	  // System.out.println(m12());
-	  System.out.println(m13());
+	  // System.out.println(m13());
 
 	}
 

@@ -16,7 +16,7 @@ class FindFactorial
          if(num == 0){
 	      return 1;
 	     }
-//                               
+//               recursive call                
 		int ans = (num*factorial(num-1));
 		return ans;
        
