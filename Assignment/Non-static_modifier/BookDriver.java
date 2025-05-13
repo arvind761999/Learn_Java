@@ -30,6 +30,18 @@ class Book
 
 class BookDriver
 {
+
+	class animal
+	{
+		String name;
+		String category;
+		String type;
+		String gender;
+		int leg;
+		int eye;
+		
+
+	}
 	public static void main(String[] args)
 	{
 	     Book obj = new Book();
